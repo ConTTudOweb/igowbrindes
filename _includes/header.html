@@ -12,11 +12,11 @@
       <li class="nav-item {% if page.url == '/contato/' %}active{% endif %}">
         <a class="nav-link" href="{{site.baseurl}}/contato">CONTATO</a>
       </li>
-      <li class="nav-item {% if page.url == '/{{ categories[0] }}/' %}active{% endif %} dropdown">
+      <li class="nav-item {% if page.url == '/categorias/#{{ categories[0] }}/' %}active{% endif %} dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CATEGORIAS</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
           {% for categories in site.categories %}
-            <a style="text-transform: uppercase;" class="dropdown-item" href="/{{ categories[0] }}">{{ categories[0] }}</a>
+            <a style="text-transform: uppercase;" class="dropdown-item" href="/categorias/#{{ categories[0] }}/">{{ categories[0] }}</a>
           {% endfor %}
         </div>
       </li>
