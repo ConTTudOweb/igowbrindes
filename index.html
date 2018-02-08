@@ -1,0 +1,32 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
+---
+{% for post in site.posts %}
+  <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+      <img class="card-img-top" src="{{ '/assets/img/bola-de-basquete.png' | prepend: site.baseurl }}" alt="{{ post.title | escape }}">
+      <div class="card-body">
+        <p class="card-text">{{ post.introduction | escape }}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+<div class="col-md-4">
+  <div class="card mb-4 box-shadow">
+    <img class="card-img-top" src="{{ '/assets/img/homer-1.jpg' | prepend: site.baseurl }}" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-4 box-shadow">
+    <img class="card-img-top" src="{{ '/assets/img/vermelho.jpg' | prepend: site.baseurl }}" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+</div>
