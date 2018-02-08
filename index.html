@@ -7,26 +7,10 @@ layout: default
 {% for post in site.posts %}
   <div class="col-md-4">
     <div class="card mb-4 box-shadow">
-      <img class="card-img-top" src="{{ '/assets/img/bola-de-basquete.png' | prepend: site.baseurl }}" alt="{{ post.title | escape }}">
-      <div class="card-body">
-        <p class="card-text">{{ post.introduction | escape }}</p>
-      </div>
+      <h4 style="text-transform: uppercase;" class="card-text">{{ post.title | escape }}</h4>
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <img class="card-img-top" src="{{ post.image | escape }}" alt="Imagem {{ post.title | escape }}">
+      </a>
     </div>
   </div>
 {% endfor %}
-<div class="col-md-4">
-  <div class="card mb-4 box-shadow">
-    <img class="card-img-top" src="{{ '/assets/img/homer-1.jpg' | prepend: site.baseurl }}" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-  </div>
-</div>
-<div class="col-md-4">
-  <div class="card mb-4 box-shadow">
-    <img class="card-img-top" src="{{ '/assets/img/vermelho.jpg' | prepend: site.baseurl }}" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-  </div>
-</div>

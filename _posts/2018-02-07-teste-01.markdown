@@ -2,6 +2,8 @@
 layout: post
 title: "Teste 01"
 date: 2018-02-07 22:06:00 -0200
-introduction: Uma pequena introdução para o site.
 categories: teste
+permalink: /teste-01/
+image: '/assets/img/bola-de-basquete.png'
 ---
+![Uma forma sobre uma imagem criando o Clipping](/assets/img/bola-de-basquete.png)

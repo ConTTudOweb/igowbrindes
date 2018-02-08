@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
 :root {
   --jumbotron-padding-y: 3rem;
+}
+
+body {
+  padding-top: 3.5rem;
+  font-family: 'Oxygen', sans-serif;
 }
 
 .jumbotron {
