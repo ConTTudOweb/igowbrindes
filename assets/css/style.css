@@ -12,7 +12,7 @@ html {
 body {
   position: relative;
   margin: 0;
-  padding-bottom: 6rem;
+  padding-bottom: 200px;
   min-height: 100%;
   padding-top: 3.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -25,6 +25,26 @@ body {
 
 .bg-light {
   background-color: #f8f9fa!important;
+}
+
+.text-indent {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-indent: 40px;
+}
+
+.card-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.card-img-top {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .jumbotron {

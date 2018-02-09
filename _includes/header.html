@@ -9,16 +9,22 @@
       <li class="nav-item {% if page.url == '/' %}active{% endif %}">
         <a class="nav-link" href="{{site.baseurl}}/">INÍCIO</a>
       </li>
-      <li class="nav-item {% if page.url == '/contato/' %}active{% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}/contato">CONTATO</a>
+      <li class="nav-item {% if page.url == '/empresa/' %}active{% endif %}">
+        <a class="nav-link" href="{{site.baseurl}}/empresa">EMPRESA</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CATEGORIAS</a>
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUTOS</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
           {% for categories in site.categories %}
-            <a style="text-transform: uppercase;" class="dropdown-item" href="{{site.baseurl}}/categorias/#{{ categories[0] }}/">{{ categories[0] }}</a>
+            <a style="text-transform: uppercase;" class="dropdown-item" href="{{site.baseurl}}/produtos/#{{ categories[0] }}/">{{ categories[0] }}</a>
           {% endfor %}
         </div>
+      </li>
+      <li class="nav-item {% if page.url == '/orcamento/' %}active{% endif %}">
+        <a class="nav-link" href="{{site.baseurl}}/orcamento">ORÇAMENTO</a>
+      </li>
+      <li class="nav-item {% if page.url == '/contato/' %}active{% endif %}">
+        <a class="nav-link" href="{{site.baseurl}}/contato">CONTATO</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
