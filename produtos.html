@@ -4,7 +4,9 @@ title: Produtos
 permalink: /produtos/
 ---
 {% for tag in site.categories  %}
-    <h4 style="text-transform: uppercase; text-align: center;" class="card-text">{{ tag[0] }}</h4>
+    <div class="text-tag">
+        <h2 class="card-text">{{ tag[0] }}</h2>
+    </div>
     {% assign pages_list = tag[1] %}
     {% for post in pages_list reversed %}
         <div class="col-md-4">

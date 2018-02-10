@@ -43,6 +43,13 @@ body {
   text-align: left;
 }
 
+.text-tag {
+  width: 100%;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .card-text {
   padding-left: 10px;
   padding-right: 10px;
