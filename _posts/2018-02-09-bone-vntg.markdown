@@ -1,21 +1,68 @@
 ---
 layout: post
-title: "Boné Teste"
+title: "Boné VNTG"
 date: 2018-02-07 22:42:00 -0200
 categories: bonés
-permalink: /bone-teste/
+permalink: /bone-vntg/
 image: '/igowbrindes/assets/img/produtos/bone-vntg/bone-01.jpg'
 ---
-<img class="img-galeria" src="{{ '/assets/img/produtos/bone-vntg/bone-01.jpg'
-| prepend: site.baseurl }}" alt="Imagem {{ post.title | escape }} 1">
-<img class="img-galeria" src="{{ '/assets/img/produtos/bone-vntg/bone-02.jpg'
-| prepend: site.baseurl }}" alt="Imagem {{ post.title | escape }} 2">
-<img class="img-galeria" src="{{ '/assets/img/produtos/bone-vntg/bone-03.jpeg'
-| prepend: site.baseurl }}" alt="Imagem {{ post.title | escape }} 3">
-<img class="img-galeria" src="{{ '/assets/img/produtos/bone-vntg/bone-04.jpg'
-| prepend: site.baseurl }}" alt="Imagem {{ post.title | escape }} 4">
-<img class="img-galeria" src="{{ '/assets/img/produtos/bone-vntg/bone-05.jpg'
-| prepend: site.baseurl }}" alt="Imagem {{ post.title | escape }} 5">
+<div style="max-width:100%">
+  <img class="mySlides" src="{{ '/assets/img/produtos/bone-vntg/bone-01.jpg'
+  | prepend: site.baseurl }}" style="width:60%">
+  <img class="mySlides" src="{{ '/assets/img/produtos/bone-vntg/bone-02.jpg'
+  | prepend: site.baseurl }}" style="width:60%">
+  <img class="mySlides" src="{{ '/assets/img/produtos/bone-vntg/bone-03.jpeg'
+  | prepend: site.baseurl }}" style="width:60%">
+  <img class="mySlides" src="{{ '/assets/img/produtos/bone-vntg/bone-04.jpg'
+  | prepend: site.baseurl }}" style="width:60%">
+  <img class="mySlides" src="{{ '/assets/img/produtos/bone-vntg/bone-05.jpg'
+  | prepend: site.baseurl }}" style="width:60%">
+
+  <img class="demo opacity hover-opacity-off img-galeria"
+  src="{{ '/assets/img/produtos/bone-vntg/bone-01.jpg'
+  | prepend: site.baseurl }}" onclick="currentDiv(1)">
+  <img class="demo opacity hover-opacity-off img-galeria"
+  src="{{ '/assets/img/produtos/bone-vntg/bone-02.jpg'
+  | prepend: site.baseurl }}" onclick="currentDiv(2)">
+  <img class="demo opacity hover-opacity-off img-galeria"
+  src="{{ '/assets/img/produtos/bone-vntg/bone-03.jpeg'
+  | prepend: site.baseurl }}" onclick="currentDiv(3)">
+  <img class="demo opacity hover-opacity-off img-galeria"
+  src="{{ '/assets/img/produtos/bone-vntg/bone-04.jpg'
+  | prepend: site.baseurl }}" onclick="currentDiv(4)">
+  <img class="demo opacity hover-opacity-off img-galeria"
+  src="{{ '/assets/img/produtos/bone-vntg/bone-05.jpg'
+  | prepend: site.baseurl }}" onclick="currentDiv(5)">
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " opacity-off";
+}
+</script>
 
 <p class="text-indent">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu tincidunt tortor.

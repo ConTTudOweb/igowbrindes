@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 :root {
   --jumbotron-padding-y: 3rem;
@@ -80,6 +81,19 @@ body {
     padding-bottom: 5px;
     max-width: 100%;
   }
+}
+
+.opacity,.hover-opacity:hover {
+  opacity:0.60;
+}
+.opacity-off,.hover-opacity-off:hover {
+  opacity:1;
+}
+.opacity-max {
+  opacity:0.25;
+}
+.opacity-min {
+  opacity:0.75;
 }
 
 .jumbotron {

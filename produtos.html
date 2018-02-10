@@ -5,7 +5,7 @@ permalink: /produtos/
 ---
 {% for tag in site.categories  %}
     <div class="text-tag">
-        <h2 class="card-text">{{ tag[0] }}</h2>
+        <h1 style="font-family: 'Quicksand', sans-serif; text-transform: uppercase; text-align: center;" class="card-text">{{ tag[0] }}</h1>
     </div>
     {% assign pages_list = tag[1] %}
     {% for post in pages_list reversed %}
