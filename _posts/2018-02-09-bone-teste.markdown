@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Boné VNTG"
-date: 2018-02-07 22:06:00 -0200
+title: "Boné Teste 2"
+date: 2018-02-07 22:43:00 -0200
 categories: bonés
-permalink: /bone-vntg/
+permalink: /bone-teste2/
 image: '/igowbrindes/assets/img/produtos/bone-vntg/bone-01.jpg'
 ---
 <img class="img-galeria" src="{{ '/assets/img/produtos/bone-vntg/bone-01.jpg'

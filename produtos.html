@@ -1,21 +1,19 @@
 ---
-layout: page
+layout: default
 title: Produtos
 permalink: /produtos/
 ---
-
 {% for tag in site.categories  %}
-    <span class="tag-title" style="text-transform: uppercase;" id="{{ tag[0] | slugify }}">{{ tag[0] }}</span>
-    <ul class="post-list">
-        {% assign pages_list = tag[1] %}
-        {% for post in pages_list reversed %}
-            {% if post.title != null %}
-            {% if group == null or group == post.group %}
-            <li style="text-transform: uppercase;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-            {% endif %}
-        {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
-    </ul>
+    <h4 style="text-transform: uppercase; text-align: center;" class="card-text">{{ tag[0] }}</h4>
+    {% assign pages_list = tag[1] %}
+    {% for post in pages_list reversed %}
+        <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+                <h4 style="text-transform: uppercase;" class="card-text">{{ post.title | escape }}</h4>
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <img class="card-img-top" src="{{ post.image | escape }}" alt="Imagem {{ post.title | escape }}">
+                </a>
+            </div>
+        </div>
+    {% endfor %}
 {% endfor %}

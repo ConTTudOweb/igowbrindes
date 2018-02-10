@@ -4,6 +4,15 @@
   --jumbotron-padding-y: 3rem;
 }
 
+a {
+  color: #fff;
+}
+
+a:link, a:hover {
+  color: #fff;
+  text-decoration:none;
+}
+
 html {
   height: 100%;
   box-sizing: border-box;
@@ -31,6 +40,7 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   text-indent: 40px;
+  text-align: left;
 }
 
 .card-text {
@@ -45,6 +55,24 @@ body {
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.img-galeria {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 19%;
+}
+
+@media (max-width: 768px) {
+  .img-galeria {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 100%;
+  }
 }
 
 .jumbotron {
@@ -74,12 +102,13 @@ body {
 
 footer {
   position: absolute;
-    right: 0;
+  right: 0;
   bottom: 0;
   left: 0;
   width: 100%;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
+  color: #fff;
   background-color: #90EE90!important;
 }
 
