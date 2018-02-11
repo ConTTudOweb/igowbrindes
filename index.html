@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
   <div class="col-md-4">
     <div class="card mb-4 box-shadow">
       <h4 style="text-transform: uppercase;" class="card-text">{{ post.title | escape }}</h4>

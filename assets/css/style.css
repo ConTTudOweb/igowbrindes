@@ -5,15 +5,6 @@
   --jumbotron-padding-y: 3rem;
 }
 
-a {
-  color: #fff;
-}
-
-a:link, a:hover {
-  color: #fff;
-  text-decoration:none;
-}
-
 html {
   height: 100%;
   box-sizing: border-box;
@@ -132,6 +123,16 @@ footer {
   color: #fff;
   background-color: #90EE90!important;
 }
+
+footer a {
+  color: #fff;
+}
+
+footer a:link, footer a:hover {
+  color: #fff;
+  text-decoration:none;
+}
+
 
 footer p {
   margin-bottom: .25rem;
