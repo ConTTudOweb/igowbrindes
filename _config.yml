@@ -1,6 +1,7 @@
 title: Igow Brindes
 description: >- # this means to ignore newlines until "baseurl:"
-  Descrição
+  A IGOW BRINDES está localizada em Apucarana, no Norte do Paraná, e
+  vem se destacando cada vez mais no mercado de brindes promocionais.
 baseurl: "/igowbrindes"
 url: "https://conttudoweb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: #00a859
