@@ -14,8 +14,8 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUTOS</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
-          {% for categories in site.categories %}
-            <a style="text-transform: uppercase;" class="dropdown-item" href="{{site.baseurl}}/produtos/#{{ categories[0] }}/">{{ categories[0] }}</a>
+          {% for category in site.categories %}
+            <a style="text-transform: uppercase;" class="dropdown-item" href="{{site.baseurl}}/produtos/#{{ category[0]|slugize }}">{{ category[0] }}</a>
           {% endfor %}
         </div>
       </li>

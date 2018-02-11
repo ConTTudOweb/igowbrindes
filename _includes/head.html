@@ -3,7 +3,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="{{ '/assets/img/icone.png' | prepend: site.baseurl }}">
+  <!--<link rel="icon" href="{{ '/assets/img/icone.png' | prepend: site.baseurl }}">-->
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/apple-touch-icon.png' | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32x32.png' | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/favicon-16x16.png' | prepend: site.baseurl }}">
+  <link rel="manifest" href="{{ '/assets/img/site.webmanifest' | prepend: site.baseurl }}">
+  <link rel="mask-icon" href="{{ '/assets/img/safari-pinned-tab.svg' | prepend: site.baseurl }}" color="{{ site.theme_color }}">
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+  <meta name="application-name" content="{{ site.title }}">
+  <meta name="msapplication-TileColor" content="{{ site.theme_color }}">
+  <meta name="theme-color" content="{{ site.theme_color }}">
 
   <title>{{ site.title }} | {{ page.title|default:"Início" }}</title>
 

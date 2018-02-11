@@ -3,11 +3,13 @@ layout: default
 title: Produtos
 permalink: /produtos/
 ---
-{% for tag in site.categories  %}
+{% for category in site.categories  %}
     <div class="text-tag">
-        <h1 style="font-family: 'Quicksand', sans-serif; text-transform: uppercase; text-align: center;" class="card-text">{{ tag[0] }}</h1>
+        <h1 style="font-family: 'Quicksand', sans-serif; text-transform: uppercase; text-align: center;"
+            class="card-text"
+            id="{{ category[0]|slugize }}">{{ category[0] }}</h1>
     </div>
-    {% assign pages_list = tag[1] %}
+    {% assign pages_list = category[1] %}
     {% for post in pages_list reversed %}
         <div class="col-md-4">
             <div class="card mb-4 box-shadow">
