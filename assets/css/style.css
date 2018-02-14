@@ -134,6 +134,15 @@ footer a:link, footer a:hover {
   text-decoration:none;
 }
 
+.linksimple {
+  color: #212529;
+}
+
+.linksimple:link, linksimple:hover {
+  color: #212529;
+  text-decoration:none;
+}
+
 
 footer p {
   margin-bottom: .25rem;
