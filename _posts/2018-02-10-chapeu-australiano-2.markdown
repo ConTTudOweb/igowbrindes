@@ -4,7 +4,7 @@ title: "Chapéu Australiano 2"
 date: 2018-02-07 22:42:00 -0200
 categories: chapéus
 permalink: /chapeu-australiano-2/
-image: '/igowbrindes/assets/img/produtos/chapeu-australiano-2/chapeu-australiano-4.jpeg'
+image: '/igowbrindes/assets/img/thumbnail/chapeu-australiano-4.jpeg'
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/chapeu-australiano-2/chapeu-australiano-4.jpeg'

@@ -4,7 +4,7 @@ title: "Necessaire"
 date: 2018-02-07 22:42:00 -0200
 categories: necessaires
 permalink: /necessaire/
-image: '/igowbrindes/assets/img/produtos/necessaire/necessaire.jpeg'
+image: '/igowbrindes/assets/img/thumbnail/necessaire.jpeg'
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/necessaire/necessaire.jpeg'

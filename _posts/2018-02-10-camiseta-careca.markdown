@@ -4,7 +4,7 @@ title: "Camiseta Careca"
 date: 2018-02-07 22:42:00 -0200
 categories: camisetas
 permalink: /camiseta-careca/
-image: '/igowbrindes/assets/img/produtos/camiseta-careca/camiseta-careca.jpeg'
+image: '/igowbrindes/assets/img/thumbnail/camiseta-careca.jpeg'
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/camiseta-careca/camiseta-careca.jpeg'

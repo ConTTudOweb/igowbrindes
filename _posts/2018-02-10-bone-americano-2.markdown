@@ -4,7 +4,7 @@ title: "Boné Americano 2"
 date: 2018-02-07 22:42:00 -0200
 categories: bonés
 permalink: /bone-americano-2/
-image: '/igowbrindes/assets/img/produtos/bone-americano-2/bone-americano.jpeg'
+image: '/igowbrindes/assets/img/thumbnail/bone-americano-2.jpeg'
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/bone-americano-2/bone-americano.jpeg'

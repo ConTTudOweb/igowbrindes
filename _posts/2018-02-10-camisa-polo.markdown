@@ -4,7 +4,7 @@ title: "Camisa Polo"
 date: 2018-02-07 22:42:00 -0200
 categories: camisas
 permalink: /camisa-polo/
-image: '/igowbrindes/assets/img/produtos/camisa-polo/camisa-polo-frente.jpeg'
+image: '/igowbrindes/assets/img/thumbnail/camisa-polo-frente.jpeg'
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/camisa-polo/camisa-polo-frente.jpeg'
