@@ -5,5 +5,7 @@ layout: default
   <div class="card mb box-shadow" align="middle">
     <h1 style="font-family: 'Quicksand', sans-serif; text-transform: uppercase; text-align: center;" class="card-text">{{ page.title | escape }}</h1>
     {{ content }}
+    <button class="button display-left black" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="button display-right black" onclick="plusDivs(1)">&#10095;</button>
   </div>
 </div>

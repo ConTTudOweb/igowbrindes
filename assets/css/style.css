@@ -75,7 +75,7 @@ body {
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    max-width: 100%;
+    max-width: 24%;
   }
 }
 
@@ -91,6 +91,84 @@ body {
 .opacity-min {
   opacity:0.75;
 }
+
+/* BOTÃO DO SLIDE */
+
+.button {
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+}
+.button {
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+.button:disabled{cursor:not-allowed;opacity:0.3}.disabled *,:disabled *{pointer-events:none}
+.button:first-child{background-color:#ccc;color:#000}
+.bar-block .dropdown-hover .button,.bar-block .dropdown-click .button{width:100%;text-align:left;padding:8px 16px}
+.button{white-space:normal}
+.button:focus {
+  outline: 5px auto #6EC9E0;
+}
+.dropdown-hover.mobile,.dropdown-hover.mobile .btn,.dropdown-hover.mobile .button,
+.dropdown-click.mobile,.dropdown-click.mobile .btn,.dropdown-click.mobile .button{width:100%}}
+.button:hover {
+  color:#000!important;
+  background-color:#ccc!important;
+}
+
+.display-left {
+  position:absolute;
+  top:40%;
+  left:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(-0%,-50%);
+}
+
+.display-right {
+  position:absolute;
+  top:40%;
+  right:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(0%,-50%);
+}
+
+.black,.hover-black:hover {
+  color:#fff!important;
+  background-color:#343a40!important;
+}
+
+@media (max-width: 768px) {
+  .display-left {
+    position:absolute;
+    top:35%;
+    left:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(-0%,-50%);
+  }
+
+  .display-right {
+    position:absolute;
+    top:35%;
+    right:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(0%,-50%);
+  }
+}
+
+/* FIM BOTÃO DO SLIDE*/
 
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
