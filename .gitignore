@@ -4,3 +4,4 @@ _site
 .bundle
 .idea
 vendor
+.DS_Store

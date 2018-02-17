@@ -9,15 +9,10 @@ image: '/igowbrindes/assets/img/thumbnail/sacola.jpeg'
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/sacola/sacola.jpeg'
   | prepend: site.baseurl }}" style="width:60%">
-  <img class="mySlides" src="{{ '/assets/img/produtos/sacola/sacola-1.jpeg'
-  | prepend: site.baseurl }}" style="width:60%">
 
   <img class="demo opacity hover-opacity-off img-galeria"
   src="{{ '/assets/img/produtos/sacola/sacola.jpeg'
   | prepend: site.baseurl }}" onclick="currentDiv(1)">
-  <img class="demo opacity hover-opacity-off img-galeria"
-  src="{{ '/assets/img/produtos/sacola/sacola-1.jpeg'
-  | prepend: site.baseurl }}" onclick="currentDiv(2)">
 
 <script>
 var slideIndex = 1;

@@ -9,10 +9,15 @@ image: '/igowbrindes/assets/img/thumbnail/camiseta-careca.jpeg'
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/camiseta-careca/camiseta-careca.jpeg'
   | prepend: site.baseurl }}" style="width:60%">
+  <img class="mySlides" src="{{ '/assets/img/produtos/camiseta-careca/camiseta-careca-gola-v.png'
+  | prepend: site.baseurl }}" style="width:60%">
 
   <img class="demo opacity hover-opacity-off img-galeria"
   src="{{ '/assets/img/produtos/camiseta-careca/camiseta-careca.jpeg'
   | prepend: site.baseurl }}" onclick="currentDiv(1)">
+  <img class="demo opacity hover-opacity-off img-galeria"
+  src="{{ '/assets/img/produtos/camiseta-careca/camiseta-careca-gola-v.png'
+  | prepend: site.baseurl }}" onclick="currentDiv(2)">
 </div>
 
 <script>

@@ -19,6 +19,8 @@ image: '/igowbrindes/assets/img/thumbnail/camisa-polo-frente.jpeg'
   | prepend: site.baseurl }}" style="width:60%">
   <img class="mySlides" src="{{ '/assets/img/produtos/camisa-polo/camisa-polo-4.jpeg'
   | prepend: site.baseurl }}" style="width:60%">
+  <img class="mySlides" src="{{ '/assets/img/produtos/camisa-polo/camisa-polo-com-recorte.jpg'
+  | prepend: site.baseurl }}" style="width:60%">
 
   <img class="demo opacity hover-opacity-off img-galeria"
   src="{{ '/assets/img/produtos/camisa-polo/camisa-polo-frente.jpeg'
@@ -38,6 +40,9 @@ image: '/igowbrindes/assets/img/thumbnail/camisa-polo-frente.jpeg'
   <img class="demo opacity hover-opacity-off img-galeria"
   src="{{ '/assets/img/produtos/camisa-polo/camisa-polo-4.jpeg'
   | prepend: site.baseurl }}" onclick="currentDiv(6)">
+  <img class="demo opacity hover-opacity-off img-galeria"
+  src="{{ '/assets/img/produtos/camisa-polo/camisa-polo-com-recorte.jpg'
+  | prepend: site.baseurl }}" onclick="currentDiv(7)">
 </div>
 
 <script>
