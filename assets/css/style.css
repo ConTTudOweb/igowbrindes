@@ -22,11 +22,15 @@ body {
 
 .bg-dark {
   /*background-color: #90EE90!important;*/
-  background-color: #00A859!important;
+  /*background-color: #00A859!important;*/
 }
 
 .bg-light {
   background-color: #f8f9fa!important;
+}
+
+.bg-igow {
+  background-color: #6EC9E0!important;
 }
 
 .text-indent {
@@ -122,7 +126,8 @@ footer {
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
   color: #fff;
-  background-color: #00A859!important;
+  /*background-color: #00A859!important;*/
+  background-color: #343a40!important;
 }
 
 footer a {
