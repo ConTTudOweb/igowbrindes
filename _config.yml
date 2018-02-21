@@ -3,7 +3,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A IGOW BRINDES está localizada em Apucarana, no Norte do Paraná, e
   vem se destacando cada vez mais no mercado de brindes promocionais.
 baseurl: ""
-url: "http://igowbrindes.com.br/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://igowbrindes.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: #00a859
 
 # Build settings

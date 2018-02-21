@@ -9,7 +9,7 @@ layout: default
     <div class="card mb-4 box-shadow">
       <h4 style="text-transform: uppercase;" class="card-text">{{ post.title | escape }}</h4>
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <img class="card-img-top" src="{{ post.image | escape }}" alt="Imagem {{ post.title | escape }}">
+        <img class="card-img-top" src="{{ post.image | prepend: site.baseurl }}" alt="Imagem {{ post.title | escape }}">
       </a>
     </div>
   </div>
