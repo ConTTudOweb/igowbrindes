@@ -4,7 +4,7 @@ title: "Boné Japones"
 date: 2018-02-07 22:42:00 -0200
 categories: bonés
 permalink: /bone-japones/
-image: '/igowbrindes/assets/img/thumbnail/bone-japones.jpeg'
+image: '/assets/img/thumbnail/bone-japones.jpeg'
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/bone-japones/bone-japones.jpeg'

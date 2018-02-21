@@ -4,7 +4,7 @@ title: "Chapéu Juta"
 date: 2018-02-07 22:42:00 -0200
 categories: chapéus
 permalink: /chapeu-juta/
-image: '/igowbrindes/assets/img/thumbnail/chapeu-juta.jpeg'
+image: '/assets/img/thumbnail/chapeu-juta.jpeg'
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/chapeu-juta/chapeu-juta.jpeg'

@@ -4,7 +4,7 @@ title: "Boné Canavieiro"
 date: 2018-02-07 22:42:00 -0200
 categories: bonés
 permalink: /bone-canavieiro/
-image: '/igowbrindes/assets/img/thumbnail/bone-canavieiro.jpeg'
+image: '/assets/img/thumbnail/bone-canavieiro.jpeg'
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/bone-canavieiro/bone-canavieiro.jpeg'

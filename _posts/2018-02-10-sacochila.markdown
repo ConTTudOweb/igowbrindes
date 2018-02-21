@@ -4,7 +4,7 @@ title: "Sacochila"
 date: 2018-02-07 22:42:00 -0200
 categories: sacochilas
 permalink: /sacochila/
-image: '/igowbrindes/assets/img/thumbnail/sacochila.jpeg'
+image: '/assets/img/thumbnail/sacochila.jpeg'
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/sacochila/sacochila.jpeg'

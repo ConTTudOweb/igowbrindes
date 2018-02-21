@@ -4,7 +4,7 @@ title: "Boné Ciclista"
 date: 2018-02-07 22:42:00 -0200
 categories: bonés
 permalink: /bone-ciclista/
-image: '/igowbrindes/assets/img/thumbnail/bone-ciclista.jpeg'
+image: '/assets/img/thumbnail/bone-ciclista.jpeg'
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/bone-ciclista/bone-ciclista.jpeg'
