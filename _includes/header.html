@@ -6,24 +6,24 @@
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item {% if page.url == '/' %}active{% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}/">INÍCIO</a>
+        <a class="nav-link" href="/">INÍCIO</a>
       </li>
       <li class="nav-item {% if page.url == '/empresa/' %}active{% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}/empresa">EMPRESA</a>
+        <a class="nav-link" href="/empresa/">EMPRESA</a>
       </li>
       <li class="nav-item dropdown {% if page.url == '/produtos/' %}active{% endif %}">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUTOS</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
           {% for category in site.categories %}
-            <a style="text-transform: uppercase;" class="dropdown-item" href="{{site.baseurl}}/produtos/#{{ category[0]|slugize }}">{{ category[0] }}</a>
+            <a style="text-transform: uppercase;" class="dropdown-item" href="/produtos/#{{ category[0]|slugize }}">{{ category[0] }}</a>
           {% endfor %}
         </div>
       </li>
       <li class="nav-item {% if page.url == '/orcamento/' %}active{% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}/orcamento">ORÇAMENTO</a>
+        <a class="nav-link" href="/orcamento">ORÇAMENTO</a>
       </li>
       <li class="nav-item {% if page.url == '/contato/' %}active{% endif %}">
-        <a class="nav-link" href="{{site.baseurl}}/contato">CONTATO</a>
+        <a class="nav-link" href="/contato">CONTATO</a>
       </li>
     </ul>
   </div>
