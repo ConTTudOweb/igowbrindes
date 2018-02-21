@@ -4,7 +4,7 @@ title: "Bolsa de Viagem"
 date: 2018-02-07 22:42:00 -0200
 categories: bolsas
 permalink: /bolsa-de-viagem/
-image: "{{ '/assets/img/thumbnail/bolsa-de-viagem.jpeg' | prepend: site.baseurl }}"
+image: {{ '/assets/img/thumbnail/bolsa-de-viagem.jpeg' | prepend: site.baseurl }}
 ---
 <div style="max-width:100%">
   <img class="mySlides" src="{{ '/assets/img/produtos/bolsa-de-viagem/bolsa-de-viagem.jpeg'
